@@ -1,0 +1,105 @@
+/*left column*/
+.container-wrapper{
+    margin-top: -0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background: rgb(99,99,99);
+    background: linear-gradient(90deg, rgba(99,99,99,1) 0%, rgba(56,56,56,1) 48%, rgba(0,0,0,1) 100%);
+    display: flex;  
+    justify-content: right;
+    height: 750px;
+}
+
+.container-wrapper > .left-column {
+    width: 800px;
+    padding: 50px 30px 40px 70px;
+}
+
+.container-wrapper > .left-column > .text h1 {
+    font-size: 2.2em;
+    font-weight: 100;
+    line-height: 1.2em;
+}
+
+.container-wrapper > .left-column > .text h1 > .destacado {
+    font-weight: 550;
+}
+
+.container-wrapper > .left-column > .text p {
+    font-size: 1.8em;
+    font-weight: 100;
+    line-height: 1.8em;
+    padding-bottom: 20px;
+}
+
+.container-wrapper > .left-column > .buttons {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    font-size: 1.7em;
+}
+
+.container-wrapper > .left-column > .buttons a {
+    display: box;
+    color: black;
+    text-decoration: none;
+    font-weight: 550;
+    background-color: #4BCE79;
+    padding: 15px 25px;
+    border-radius: 4px;
+}
+
+.container-wrapper > .left-column > .buttons> .Learn-more {
+    color: white;
+    background-color: black;
+}
+
+/*right column*/
+.container-wrapper > .right-column {
+    padding: 70px;
+    padding-right: 0px;
+}
+
+.container-wrapper > .right-column > .pie-de-foto {
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.container-wrapper > .right-column > .pie-de-foto > .destacado-azul {
+    color: #6CBDC4;
+}
+
+.container-wrapper > .right-column img {
+    width: 600px;
+    justify-content: right;
+    padding-bottom: 0px;
+}
+
+
+/*LAST SECTION*/
+.last-section-wrapper {
+    background-color: #36383F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+    margin-top: -150px;
+}
+
+.last-section-wrapper > .section-button {
+    font-size: 1.2em;
+    font-weight: 500;
+    width: 100%;
+    justify-content: center;
+    padding: 20px 33px;
+    border: 1px solid grey;
+}
+
+.last-section-wrapper > .section-button span {
+    font-size: 1.5em;
+    font-weight: 900;
+    letter-spacing: -1px;
+    justify-content: center;
+}
